@@ -23,7 +23,7 @@ public class MyApp : Gtk.Application {
 
     public MyApp () {
         Object (
-            application_id: "com.github.chetwilk.reponame",
+            application_id: "com.github.chetwilk.sturdy-enigma",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -37,8 +37,6 @@ public class MyApp : Gtk.Application {
         main_window.title = "Hello Again!";
         main_window.add (label);
         main_window.show_all ();
-
-
     }
 
     public static int main (string[] args) {
